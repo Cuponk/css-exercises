@@ -12,6 +12,9 @@ img {
   font-weight: 900;
 }
 
+body {
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;

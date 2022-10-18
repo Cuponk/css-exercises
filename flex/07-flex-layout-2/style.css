@@ -5,13 +5,13 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 64px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  height: 64px;
   background: #eee;
   color: darkmagenta;
 }
@@ -25,4 +25,40 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
